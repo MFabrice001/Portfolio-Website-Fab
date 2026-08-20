@@ -45,7 +45,7 @@ skillsHeader.forEach((el) => {
 
 /*============== Qualification Skills ===============*/
 
-/*const tabs = document.querySelectorAll('[data-target]'),
+const tabs = document.querySelectorAll('[data-target]'),
       tabContents = document.querySelectorAll('[data-content]')
 tabs.forEach(tab =>{
     tab.addEventListener('click', () =>{
@@ -54,13 +54,12 @@ tabs.forEach(tab =>{
             tabContent.classList.remove('qualification__active')
         })
         target.classList.add('qualification__active')
-        tab.forEach(tab =>{
-            tab.classList.remove('qualification__active')
+        tabs.forEach(t =>{
+            t.classList.remove('qualification__active')
         })
         tab.classList.add('qualification__active')
     })
-})      
-*/
+})
 
 /*======================= Services Modal ===================*/
 const modalViews = document.querySelectorAll(".services__modal"),
