@@ -657,12 +657,12 @@ img {
   transform: translate(6px, -7px);
 }
 
-.qualification [data-content] {
+.qualification__content[data-content] {
   display: none;
 }
 
-.qualification__active[data-content] {
-  display: none;
+.qualification__content.qualification__active[data-content] {
+  display: block;
 }
 
 .qualification__button.qualification__active {
